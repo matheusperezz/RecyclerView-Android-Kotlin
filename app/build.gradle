@@ -1,6 +1,9 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+
+    // Adicionado para suporte ao binding
+    id 'kotlin-android-extensions'
 }
 
 android {
