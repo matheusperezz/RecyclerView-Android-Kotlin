@@ -386,6 +386,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun initRecyclerView() {
 
+        // Método que executa uma ação no CardView
         this.carroAdapter = CarroAdapter { live ->
             openLink(live.link)
         }
